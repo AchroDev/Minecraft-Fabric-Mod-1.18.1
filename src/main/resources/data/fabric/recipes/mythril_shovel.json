@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "achromod:mythril_ingot"
+    }
+  },
+  "result": {
+    "item": "achromod:mythril_shovel"
+  }
+}

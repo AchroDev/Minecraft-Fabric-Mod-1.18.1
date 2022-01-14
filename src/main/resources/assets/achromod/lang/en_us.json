@@ -3,5 +3,15 @@
   "item.achromod.mythril_nugget": "Mythril Nugget",
   "item.achromod.raw_mythril": "Raw Mythril",
   "item.achromod.mythril_pickaxe": "Mythril Pickaxe",
-  "item.achromod.mythril_ore": "Mythril Ore"
+  "item.achromod.mythril_sword": "Mythril Sword",
+  "item.achromod.mythril_axe": "Mythril Axe",
+  "item.achromod.mythril_shovel": "Mythril Shovel",
+  "item.achromod.mythril_hoe": "Mythril Hoe",
+
+
+  "block.achromod.mythril_ore": "Mythril Ore",
+  "block.achromod.mythril_block": "Mythril Block",
+  "block.achromod.deepslate_mythril_ore": "Deepslate Mythril Ore",
+  "block.achromod.netherrack_mythril_ore": "Netherrack Mythril Ore",
+  "block.achromod.raw_mythril_block": "Raw Mythril Block"
 }
