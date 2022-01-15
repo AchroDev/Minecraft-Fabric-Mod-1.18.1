@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " X ",
+    "   "
+  ],
+  "key": {
+
+    "X": {
+      "item": "achromod:mythril_ingot"
+    }
+  },
+  "result": {
+    "item": "achromod:mythril_nugget"
+  }
+}

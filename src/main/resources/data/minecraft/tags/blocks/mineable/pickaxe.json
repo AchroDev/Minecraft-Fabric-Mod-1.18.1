@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "achromod:mythril_block",
+    "achromod:mythril_ore",
+    "achromod:deepslate_mythril_ore",
+    "achromod:netherrack_mythril_ore",
+    "achromod:raw_mythril_block"
+  ]
+}

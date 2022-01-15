@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "achromod:mythril_block"
+      }
+    ],
+
+  "result": {
+    "item": "achromod:mythril_ingot",
+    "count": 9
+  }
+}

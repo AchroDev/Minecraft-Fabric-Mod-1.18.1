@@ -24,7 +24,7 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64)));
 
     public static final Item MYTHRIL_PICKAXE = registerItem("mythril_pickaxe",
-            new ModPickaxeItem(ModToolMaterial.MYTHRIL, 4, 2f,
+            new ModPickaxeItem(ModToolMaterial.MYTHRIL, 0, 2f,
                     (new FabricItemSettings().group(ItemGroup.TOOLS))));
 
     public static final Item MYTHRIL_AXE = registerItem("mythril_axe",
