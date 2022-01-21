@@ -1,17 +1,14 @@
 {
-  "item.achromod.mythril_ingot": "Mythril Ingot",
-  "item.achromod.mythril_nugget": "Mythril Nugget",
-  "item.achromod.raw_mythril": "Raw Mythril",
-  "item.achromod.mythril_pickaxe": "Mythril Pickaxe",
-  "item.achromod.mythril_sword": "Mythril Sword",
-  "item.achromod.mythril_axe": "Mythril Axe",
-  "item.achromod.mythril_shovel": "Mythril Shovel",
-  "item.achromod.mythril_hoe": "Mythril Hoe",
+  "item.achromod.peridot": "Peridot",
+  "item.achromod.peridot_pickaxe": "Peridot Pickaxe",
+  "item.achromod.peridot_sword": "Peridot Sword",
+  "item.achromod.peridot_axe": "Peridot Axe",
+  "item.achromod.peridot_shovel": "Peridot Shovel",
+  "item.achromod.peridot_hoe": "Peridot Hoe",
 
 
-  "block.achromod.mythril_ore": "Mythril Ore",
-  "block.achromod.mythril_block": "Mythril Block",
-  "block.achromod.deepslate_mythril_ore": "Deepslate Mythril Ore",
-  "block.achromod.netherrack_mythril_ore": "Netherrack Mythril Ore",
-  "block.achromod.raw_mythril_block": "Raw Mythril Block"
+  "block.achromod.peridot_ore": "Peridot Ore",
+  "block.achromod.peridot_block": "Peridot Block",
+  "block.achromod.deepslate_peridot_ore": "Deepslate Peridot Ore",
+  "block.achromod.netherrack_peridot_ore": "Netherrack Peridot Ore"
 }

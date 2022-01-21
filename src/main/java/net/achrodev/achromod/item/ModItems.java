@@ -9,38 +9,30 @@ import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import javax.tools.Tool;
-
 
 public class ModItems {
 
-    public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot",
+    public static final Item PERIDOT = registerItem("peridot",
             new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64)));
 
-    public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64)));
-
-    public static final Item RAW_MYTHRIL = registerItem("raw_mythril",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64)));
-
-    public static final Item MYTHRIL_PICKAXE = registerItem("mythril_pickaxe",
-            new ModPickaxeItem(ModToolMaterial.MYTHRIL, 0, 2f,
+    public static final Item PERIDOT_PICKAXE = registerItem("peridot_pickaxe",
+            new ModPickaxeItem(ModToolMaterial.PERIDOT, 0, 2f,
                     (new FabricItemSettings().group(ItemGroup.TOOLS))));
 
-    public static final Item MYTHRIL_AXE = registerItem("mythril_axe",
-            new ModAxeItem(ModToolMaterial.MYTHRIL, 12, -1f,
+    public static final Item PERIDOT_AXE = registerItem("peridot_axe",
+            new ModAxeItem(ModToolMaterial.PERIDOT, 12, -1f,
                     (new FabricItemSettings().group(ItemGroup.TOOLS))));
 
-    public static final Item MYTHRIL_HOE = registerItem("mythril_hoe",
-            new ModHoeItem(ModToolMaterial.MYTHRIL, 0, 0f,
+    public static final Item PERIDOT_HOE = registerItem("peridot_hoe",
+            new ModHoeItem(ModToolMaterial.PERIDOT, 0, 0f,
                     (new FabricItemSettings().group(ItemGroup.TOOLS))));
 
-    public static final Item MYTHRIL_SHOVEL = registerItem("mythril_shovel",
-            new ShovelItem(ModToolMaterial.MYTHRIL, 0, 2f,
+    public static final Item PERIDOT_SHOVEL = registerItem("peridot_shovel",
+            new ShovelItem(ModToolMaterial.PERIDOT, 0, 2f,
                     (new FabricItemSettings().group(ItemGroup.TOOLS))));
 
-    public static final Item MYTHRIL_SWORD = registerItem("mythril_sword",
-            new SwordItem(ModToolMaterial.MYTHRIL, 10, 3f,
+    public static final Item PERIDOT_SWORD = registerItem("peridot_sword",
+            new SwordItem(ModToolMaterial.PERIDOT, 10, 3f,
                     (new FabricItemSettings().group(ItemGroup.TOOLS))));
 
 

@@ -1,17 +1,15 @@
 package net.achrodev.achromod.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.tag.ItemTags;
 import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
 
-    MYTHRIL(MiningLevels.NETHERITE, 3000, 20.0f, 5.0f, 24, () -> Ingredient.ofItems(ModItems.MYTHRIL_INGOT));
+    PERIDOT(MiningLevels.NETHERITE, 3000, 20.0f, 5.0f, 24, () -> Ingredient.ofItems(ModItems.PERIDOT));
 
     private final int miningLevel;
     private final int itemDurability;
