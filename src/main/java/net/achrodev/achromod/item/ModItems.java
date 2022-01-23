@@ -13,27 +13,27 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     public static final Item PERIDOT = registerItem("peridot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64)));
+            new Item(new FabricItemSettings().group(ModItemGroup.PERIDOT).maxCount(64)));
 
     public static final Item PERIDOT_PICKAXE = registerItem("peridot_pickaxe",
             new ModPickaxeItem(ModToolMaterial.PERIDOT, 0, 2f,
-                    (new FabricItemSettings().group(ItemGroup.TOOLS))));
+                    (new FabricItemSettings().group(ModItemGroup.PERIDOT))));
 
     public static final Item PERIDOT_AXE = registerItem("peridot_axe",
             new ModAxeItem(ModToolMaterial.PERIDOT, 12, -1f,
-                    (new FabricItemSettings().group(ItemGroup.TOOLS))));
+                    (new FabricItemSettings().group(ModItemGroup.PERIDOT))));
 
     public static final Item PERIDOT_HOE = registerItem("peridot_hoe",
             new ModHoeItem(ModToolMaterial.PERIDOT, 0, 0f,
-                    (new FabricItemSettings().group(ItemGroup.TOOLS))));
+                    (new FabricItemSettings().group(ModItemGroup.PERIDOT))));
 
     public static final Item PERIDOT_SHOVEL = registerItem("peridot_shovel",
             new ShovelItem(ModToolMaterial.PERIDOT, 0, 2f,
-                    (new FabricItemSettings().group(ItemGroup.TOOLS))));
+                    (new FabricItemSettings().group(ModItemGroup.PERIDOT))));
 
     public static final Item PERIDOT_SWORD = registerItem("peridot_sword",
             new SwordItem(ModToolMaterial.PERIDOT, 10, 3f,
-                    (new FabricItemSettings().group(ItemGroup.TOOLS))));
+                    (new FabricItemSettings().group(ModItemGroup.PERIDOT))));
 
 
     private static Item registerItem(String name, Item item) {

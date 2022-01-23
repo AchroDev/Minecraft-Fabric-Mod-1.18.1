@@ -10,5 +10,7 @@
   "block.achromod.peridot_ore": "Peridot Ore",
   "block.achromod.peridot_block": "Peridot Block",
   "block.achromod.deepslate_peridot_ore": "Deepslate Peridot Ore",
-  "block.achromod.netherrack_peridot_ore": "Netherrack Peridot Ore"
+  "block.achromod.netherrack_peridot_ore": "Netherrack Peridot Ore",
+
+  "itemGroup.achromod.peridot": "Peridot Mod"
 }
